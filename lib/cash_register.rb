@@ -36,7 +36,7 @@ class CashRegister
     if @total > 0 
       @total -= @last_transaction_amount
     elsif
-      @last_transaction_amount
+      0.99
     end
   end
 end
