@@ -32,11 +32,7 @@ class CashRegister
     end
   end
   
-   def void_last_transaction
-    if @total > 0 
-      @total -= @last_transaction_amount
-    elsif
-      @last_transaction_amount
-    end
+ def void_last_transaction
+    self.total = self.total - self.last_transaction
   end
 end
