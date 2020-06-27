@@ -7,7 +7,6 @@ class CashRegister
     @items = []
   end
   
-  def add_item(title, price, total_items = 1)
   def add_item(item, price, qty = 1)
         qty.times do
             self.items << item
