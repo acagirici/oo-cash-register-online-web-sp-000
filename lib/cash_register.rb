@@ -37,6 +37,6 @@ class CashRegister
       @total -= @last_transaction_amount
     else
       @total.to_i
+    end
   end
-  
 end
